@@ -8,21 +8,43 @@
     <link rel="icon" href="https://i.imgur.com/P2Zwx6R.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class=" bg-[#101014]">
+<body class=" bg-[#101014] font-lato">
     <!-- nav bar start here -->
     <nav class="h-[80px] w-full bg-[#131316] text-white flex justify-between ">
          <div class="nav-left  h-full w-auto flex items-center  px-[20px] ">
             <img src="https://i.imgur.com/fL0WoKL.png" alt="" referrerpolicy="no-referrer" class="h-[40px] pr-[30px]">
-            <h1 class="font-extrabold text-[30px] font-lato pr-[20px]">STORE</h1>
+            <h1 class="font-extrabold text-[25px]  pr-[20px]">STORE</h1>
             <a href="" class="pr-[20px] hidden md:block">Support</a>
             <a href="" class="pr-[20px] hidden md:block">Distribute</a>
          </div>
          <div class="nav-right h-full w-auto flex items-center justify-end">
             <div class="hidden md:block "> <i class="fa-solid fa-globe text-[20px] mr-[30px] "></i></div>
-            <button class="h-[33px] w-[80px] bg-[#363639] rounded-[8px] hidden md:block">Sign in</button>
-            <button class="h-[33px] w-[100px] bg-[#28bafb] mx-[20px] rounded-[8px]">Download</button>
+            <button class="h-[33px] w-[80px] bg-[#363639] rounded-[8px] hidden md:block font-bold">Sign in</button>
+            <button class="h-[33px] w-[100px] bg-[#28bafb] mx-[20px] rounded-[8px] text-black font-bold">Download</button>
             <div class="hamburger md:hidden block text-[25px] mr-[10px]"><i class="fa-solid fa-bars"></i></div>
          </div>
      </nav>
+     <!-- nav bar end here -->
+
+     <!-- main content tab start here -->
+
+     <div class="main-content h-auto w-full flex justify-center">
+        <!-- game tab start here -->
+        <div class="game-tab h-auto w-[75%]">
+           <!-- search bar start here -->
+            <div class="searchbar h-[120px] w-full flex items-center">
+                <div class="h-[40px] w-[250px] bg-[#202024] rounded-[25px] flex items-center">
+                    <i class="fa-solid fa-magnifying-glass ml-[15px] text-[#959fa2]"></i>
+                    <input type="search" placeholder="Search Store" class="bg-inherit ml-[10px] border-none outline-none text-white ">
+                </div>
+                <a href="" class="ml-[20px] text-white">Discover</a>
+                <a href="" class="ml-[20px] text-[#959fa2]">Browse</a>
+                <a href="" class="ml-[20px] text-[#959fa2]">News</a>
+            </div>
+            <!-- search bar end here -->
+             
+        </div>
+
+     </div>
 </body>
 </html>
