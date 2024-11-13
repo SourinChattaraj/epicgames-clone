@@ -13,14 +13,14 @@
     <nav class="h-[80px] w-full bg-[#131316] text-white flex justify-between ">
          <div class="nav-left  h-full w-auto flex items-center  px-[20px] ">
             <img src="https://i.imgur.com/fL0WoKL.png" alt="" referrerpolicy="no-referrer" class="h-[30px] pr-[30px]">
-            <h1 class="font-extrabold text-[23px]  pr-[20px]">STORE</h1>
-            <a href="" class="pr-[20px] hidden md:block">Support</a>
-            <a href="" class="pr-[20px] hidden md:block">Distribute</a>
+            <h1 class="font-extrabold text-[23px]  pr-[20px] hover:text-[#909099] linner duration-100">STORE</h1>
+            <a href="" class="pr-[20px] hidden md:block hover:text-[#909099] linner duration-100">Support</a>
+            <a href="" class="pr-[20px] hidden md:block hover:text-[#909099] linner duration-100">Distribute</a>
          </div>
          <div class="nav-right h-full w-auto flex items-center justify-end">
-            <div class="hidden md:block "> <i class="fa-solid fa-globe text-[18px] mr-[30px] "></i></div>
-            <button class="h-[35px] w-[80px] bg-[#363639] rounded-[8px] hidden md:block font-bold">Sign in</button>
-            <button class="h-[35px] w-[100px] bg-[#28bafb] mx-[20px] rounded-[8px] text-black font-bold">Download</button>
+            <div class="hidden md:block hover:text-[#909099] linner duration-100"> <i class="fa-solid fa-globe text-[18px] mr-[30px] "></i></div>
+            <button class="h-[35px] w-[80px] bg-[#363639] rounded-[8px] hidden md:block font-bold hover:bg-[#909099] linner duration-100">Sign in</button>
+            <button class="h-[35px] w-[100px] bg-[#28bafb] mx-[20px] rounded-[8px] text-black font-bold hover:bg-[#6dd3ff] linner duration-100">Download</button>
             <div class="hamburger md:hidden block text-[25px] mr-[10px]"><i class="fa-solid fa-bars"></i></div>
          </div>
      </nav>
@@ -30,7 +30,7 @@
 
      <div class="main-content h-auto w-full flex justify-center">
         <!-- game tab start here -->
-        <div class="game-tab h-auto w-[76%]">
+        <div class="game-tab h-auto w-[85%] md:w-[76%]">
            <!-- search bar start here -->
             <div class="searchbar h-[120px] w-full flex items-center">
                 <div class="h-[40px] w-full bg-[#202024] rounded-[25px] flex items-center md:w-[250px]">
@@ -38,13 +38,13 @@
                     <input type="search" placeholder="Search Store" class="bg-inherit ml-[10px] border-none outline-none text-white ">
                 </div>
                 <a href="" class="ml-[20px] text-white  hidden md:block">Discover</a>
-                <a href="" class="ml-[20px] text-[#959fa2] hidden md:block">Browse</a>
-                <a href="" class="ml-[20px] text-[#959fa2] hidden md:block">News</a>
+                <a href="" class="ml-[20px] text-[#959fa2] hidden md:block hover:text-white linner duration-100 ">Browse</a>
+                <a href="" class="ml-[20px] text-[#959fa2] hidden md:block hover:text-white linner duration-100">News</a>
             </div>
             <!-- search bar end here -->
 
              <!-- game big banner -->
-              <div class="w-full h-[900px] overflow-hidden rounded-[25px]">
+              <div class="w-full h-auto md:h-[900px] overflow-hidden rounded-[25px]">
                 <img src="https://i.imgur.com/qkLuG1a.jpeg" alt="" referrerpolicy="no-referrer" class="w-full ">
               </div>
               <!-- game big banner end here -->
@@ -55,55 +55,61 @@
                         <h1 class="font-extrabold text-[21px]">Discover Something New</h1>
                     </div>
                     <div class="allcard w-full h-auto flex flex-wrap">
-                        <div class="cards h-[420px] w-[212px] mr-[19px] rounded-[20px] overflow-hidden">
-                            <div class="img w-full h-[75%] bg-pink-400 rounded-[20px] overflow-hidden">
+                        <div class="cards flex h-[235px] w-full mb-[10px] md:block md:h-[415px] md:w-[204px] md:mr-[19px] md:rounded-[20px] overflow-hidden cursor-pointer">
+                            <div class="img w-[50%] h-full md:w-full md:h-[75%] md:mr-[19px]  rounded-[20px] overflow-hidden">
                                 <img src="https://i.imgur.com/SXGie3s.jpeg" alt="" referrerpolicy="no-referrer" class="h-full w-full">
                             </div>
-                            <div class="details w-full h-[20%]">
-                                <p class="mt-[10px] text-[13px] text-[#b1b1ba]">Base Game</p>
-                                <h2 class="text-[15px] font-bold mb-[5px]">Batman Arkam Knight</h2>
-                                <p class="text-[15px]">$99</p>
+                            <div class="details w-[50%] h-full flex flex-col justify-around ml-[12px] md:ml-0 md:block md:h-[25%] md:w-full ">
+                                <p class="md:mt-[10px] md:text-[13px] text-[#b1b1ba] text-[15px] ">Base Game</p>
+                                <h2 class="md:text-[15px] font-bold md:mb-[5px] text-[20px] ">Batman Arkam Knight</h2>
+                                <p class="md:text-[15px] md:mb-[10px]">$99</p>
                             </div>
                         </div>
-                        <div class="cards h-[420px] w-[212px] mr-[19px] rounded-[20px] overflow-hidden">
-                            <div class="img w-full h-[75%] bg-pink-400 rounded-[20px] overflow-hidden">
-                                <img src="https://i.imgur.com/nQaOvJH.jpeg" alt="" referrerpolicy="no-referrer" class=" h-full w-full">
-                            </div>
-                            <div class="details w-full h-[20%]">
-                                <p  class="mt-[10px] text-[13px] text-[#b1b1ba]">Base Game</p>
-                                <h2 class="text-[15px] font-bold mb-[5px]">Far Cry 4</h2>
-                                <p class="text-[15px]">$99</p>
-                            </div>
-                        </div>
-                        <div class="cards h-[420px] w-[212px]  mr-[19px] rounded-[20px] overflow-hidden">
-                            <div class="img w-full h-[75%] bg-pink-400  rounded-[20px] overflow-hidden">
-                                <img src="https://i.imgur.com/HuIPyRV.jpeg" alt="" referrerpolicy="no-referrer" class="h-full w-full">
-                            </div>
-                            <div class="details w-full h-[20%]">
-                                <p class="mt-[10px] text-[13px] text-[#b1b1ba]">Base Game</p>
-                                <h2 class="text-[15px] font-bold mb-[5px]">Bordersland 3</h2>
-                                <p class="text-[15px]">$99</p>
-                            </div>
-                        </div>
-                        <div class="cards h-[420px] w-[212px] e mr-[19px] rounded-[20px] overflow-hidden">
-                            <div class="img w-full h-[75%] bg-pink-400 rounded-[20px] overflow-hidden">
-                                <img src="https://i.imgur.com/5Koi0VZ.jpeg" alt="" referrerpolicy="no-referrer" class=" h-full w-full">
-                            </div>
-                            <div class="details w-full h-[20%]">
-                                <p class="mt-[10px] text-[13px] text-[#b1b1ba]">Base Game</p>
-                                <h2 class="text-[15px] font-bold mb-[5px]">Gran Thief Auto 4</h2>
-                                <p class="text-[15px]">$99</p>
-                            </div>
 
-                        </div>
-                        <div class="cards h-[420px] w-[212px]  mr-[19px] rounded-[20px] overflow-hidden">
-                            <div class="img w-full h-[75%] bg-pink-400 rounded-[20px] overflow-hidden">
-                                <img src="https://i.imgur.com/JDKIKpe.jpeg" alt="" referrerpolicy="no-referrer" class=" h-full w-full">
+
+                        <div class="cards flex h-[235px] w-full mb-[10px] md:block md:h-[415px] md:w-[204px] md:mr-[19px] md:rounded-[20px] overflow-hidden cursor-pointer">
+                            <div class="img w-[50%] h-full md:w-full md:h-[75%] md:mr-[19px]  rounded-[20px] overflow-hidden">
+                                <img src="https://m.media-amazon.com/images/M/MV5BYmFkMTE3ZjQtODA3Yi00MTVmLWFlNzMtOGY2MjRkN2Q0Y2Y3XkEyXkFqcGc@._V1_.jpg" alt="" referrerpolicy="no-referrer" class="h-full w-full">
                             </div>
-                            <div class="details w-full h-[20%]">
-                                <p class="mt-[10px] text-[13px] text-[#b1b1ba]">Base Game</p>
-                                <h2 class="text-[15px] font-bold mb-[5px]">Hitman 3</h2>
-                                <p class="text-[15px]">$99</p>
+                            <div class="details w-[50%] h-full flex flex-col justify-around ml-[12px] md:ml-0 md:block md:h-[25%] md:w-full ">
+                                <p class="md:mt-[10px] md:text-[13px] text-[#b1b1ba] text-[15px] ">Base Game</p>
+                                <h2 class="md:text-[15px] font-bold md:mb-[5px] text-[20px] ">FAR CRY 5</h2>
+                                <p class="md:text-[15px] md:mb-[10px]">$99</p>
+                            </div>
+                        </div>
+
+
+                        <div class="cards flex h-[235px] w-full mb-[10px] md:block md:h-[415px] md:w-[204px] md:mr-[19px] md:rounded-[20px] overflow-hidden cursor-pointer">
+                            <div class="img w-[50%] h-full md:w-full md:h-[75%] md:mr-[19px]  rounded-[20px] overflow-hidden">
+                                <img src="https://rukminim2.flixcart.com/image/750/900/k63xle80/code-in-the-box-game/7/y/u/pc-red-dead-redemption-2-pc-standard-edition-original-imafzmkyques8mxp.jpeg?q=20&crop=false" alt="" referrerpolicy="no-referrer" class="h-full w-full">
+                            </div>
+                            <div class="details w-[50%] h-full flex flex-col justify-around ml-[12px] md:ml-0 md:block md:h-[25%] md:w-full ">
+                                <p class="md:mt-[10px] md:text-[13px] text-[#b1b1ba] text-[15px] ">Base Game</p>
+                                <h2 class="md:text-[15px] font-bold md:mb-[5px] text-[20px] ">Red Dead Redemption 2</h2>
+                                <p class="md:text-[15px] md:mb-[10px]">$99</p>
+                            </div>
+                        </div>
+
+
+                        <div class="cards flex h-[235px] w-full mb-[10px] md:block md:h-[415px] md:w-[204px] md:mr-[19px] md:rounded-[20px] overflow-hidden cursor-pointer">
+                            <div class="img w-[50%] h-full md:w-full md:h-[75%] md:mr-[19px]  rounded-[20px] overflow-hidden">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Hitman_3_Packart.jpg/220px-Hitman_3_Packart.jpg" alt="" referrerpolicy="no-referrer" class="h-full w-full">
+                            </div>
+                            <div class="details w-[50%] h-full flex flex-col justify-around ml-[12px] md:ml-0 md:block md:h-[25%] md:w-full ">
+                                <p class="md:mt-[10px] md:text-[13px] text-[#b1b1ba] text-[15px] ">Base Game</p>
+                                <h2 class="md:text-[15px] font-bold md:mb-[5px] text-[20px] ">Hitman 3</h2>
+                                <p class="md:text-[15px] md:mb-[10px]">$99</p>
+                            </div>
+                        </div>
+
+                        <div class="cards flex h-[235px] w-full mb-[10px] md:block md:h-[415px] md:w-[204px] md:mr-[19px] md:rounded-[20px] overflow-hidden cursor-pointer">
+                            <div class="img w-[50%] h-full md:w-full md:h-[75%] md:mr-[19px]  rounded-[20px] overflow-hidden">
+                                <img src="https://m.media-amazon.com/images/I/61mSLaU4IxL.jpg" alt="" referrerpolicy="no-referrer" class="h-full w-full">
+                            </div>
+                            <div class="details w-[50%] h-full flex flex-col justify-around ml-[12px] md:ml-0 md:block md:h-[25%] md:w-full ">
+                                <p class="md:mt-[10px] md:text-[13px] text-[#b1b1ba] text-[15px] ">Base Game</p>
+                                <h2 class="md:text-[15px] font-bold md:mb-[5px] text-[20px] ">Sekiro Shadow Die Twice</h2>
+                                <p class="md:text-[15px] md:mb-[10px]">$99</p>
                             </div>
                         </div>
                     </div>
@@ -119,39 +125,36 @@
                     <div class="all2ndcard w-full h-auto flex flex-wrap">
 
                         <!-- cards -->
-                         <div class="h-[300px] w-[365px] mr-[19px]">
-                            <div class="img w-full h-[75%] bg-pink-400 rounded-[20px] overflow-hidden">
+                         <div class="md:h-[290px] md:w-[353px] md:mr-[19px] h-[250px] w-full mb-[10px] cursor-pointer">
+                            <div class="img md:w-full md:h-[75%] h-[70%] w-full  rounded-[20px] overflow-hidden">
                                 <img src="https://i.imgur.com/fGiHGKe.jpeg" alt="" referrerpolicy="no-referrer" class=" h-full w-full">
                             </div>
-                            <div class="details w-full h-[20%]">
-                                <h2 class="text-[20px] font-bold mt-[10px]">Gran Thief Auto 4</h2>
+                            <div class="details md:w-full md:h-[20%] h-[25%] w-full">
+                                <h2 class="text-[20px] font-bold mt-[10px]">MAFIA Definative Edition</h2>
                                 <p class="text-[15px] mt-[8px]">$99</p>
                             </div>
                          </div>
-                         <div class=" h-[300px] w-[365px] mr-[19px]">
 
-                            <div class="img w-full h-[75%] bg-pink-400 rounded-[20px] overflow-hidden">
-                                <img src="https://i.imgur.com/fGiHGKe.jpeg" alt="" referrerpolicy="no-referrer" class=" h-full w-full">
+                         <div class="md:h-[290px] md:w-[353px] md:mr-[19px] h-[250px] w-full mb-[10px] cursor-pointer">
+                            <div class="img md:w-full md:h-[75%] h-[70%] w-full  rounded-[20px] overflow-hidden">
+                                <img src="https://images.gog-statics.com/ca20a040b7e7dbf11f954b4fa85e1ecdcf8f95eeba8ebf71f89455794eec80f2.jpg" alt="" referrerpolicy="no-referrer" class=" h-full w-full">
                             </div>
-                            <div class="details w-full h-[20%]">
-                                <h2 class="text-[20px] font-bold mt-[10px]">Gran Thief Auto 4</h2>
+                            <div class="details md:w-full md:h-[20%] h-[25%] w-full">
+                                <h2 class="text-[20px] font-bold mt-[10px]">The Witcher 3 : Wild Hunt</h2>
                                 <p class="text-[15px] mt-[8px]">$99</p>
                             </div>
-
                          </div>
-                         <div class=" h-[300px] w-[365px] mr-[19px]">
 
-                            <div class="img w-full h-[75%] bg-pink-400 rounded-[20px] overflow-hidden">
-                                <img src="https://i.imgur.com/fGiHGKe.jpeg" alt="" referrerpolicy="no-referrer" class=" h-full w-full">
+                         <div class="md:h-[290px] md:w-[353px] md:mr-[19px] h-[250px] w-full mb-[10px] cursor-pointer">
+                            <div class="img md:w-full md:h-[75%] h-[70%] w-full rounded-[20px] overflow-hidden">
+                                <img src="https://www.gematsu.com/wp-content/uploads/2024/02/Elden-Ring-DLC-Dated_02-21-24.jpg" alt="" referrerpolicy="no-referrer" class=" h-full w-full">
                             </div>
-                            <div class="details w-full h-[20%]">
-                                <h2 class="text-[20px] font-bold mt-[10px]">Gran Thief Auto 4</h2>
+                            <div class="details md:w-full md:h-[20%] h-[25%] w-full">
+                                <h2 class="text-[20px] font-bold mt-[10px]">Elden Rings : Shadow Of The Erdtree</h2>
                                 <p class="text-[15px] mt-[8px]">$99</p>
                             </div>
-
                          </div>
                          <!-- card end -->
-
                     </div>
                     <!-- card div end -->
                 </div>
@@ -160,5 +163,73 @@
         </div>  
 
      </div>
+     <!-- main content ends here -->
+      <!-- footer start here -->
+       <footer class="md:h-[500px] h-auto w-full bg-[#202020] mt-[50px]  flex flex-col items-center md:block">
+            <!-- divone -->
+             <div class="h-auto w-[50%]  py-[20px] md:ml-[80px] md:h-[50%]">
+                <div class="icon w-full h-[20%] md:mb-[15px] mb-0">
+                    <i class="fa-brands fa-x-twitter mr-[9px] text-[23px] text-[#CCCCCC] cursor-pointer hover:text-[#838383] linner duration-100"></i>
+                    <i class="fa-brands fa-facebook mr-[9px] text-[23px] text-[#CCCCCC] cursor-pointer hover:text-[#838383] linner duration-100"></i>
+                    <i class="fa-brands fa-youtube mr-[9px] text-[23px] text-[#CCCCCC] cursor-pointer hover:text-[#838383] linner duration-100"></i>
+                </div>
+                <div class="info w-full h-[80%] flex ">
+                    <div class="infoone h-full w-[60%]">
+                        <div class="w-full h-[12%] text-[#656565] font-extrabold"><h2 class=" text-[12px]">Resourses</h2></div>
+                        <div class="w-full h-[88%] md:mt-[5px] mt-0">
+                            <ul class="h-full flex flex-col flex-wrap text-[12px] text-white ">
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Support-A-Creator</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Distribute on Epic Games</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Careers</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Company</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Fan Art Policy</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">UX Research</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Store EULA</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Online Service</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Commuility Rules</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Epic Newsroom</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="infotwo   h-full w-[40%]">
+                        <div class="w-full h-[12%] text-[#656565] font-extrabold"><h2 class=" text-[12px]">Made By Epic Games</h2></div>
+                        <div class="w-full h-[88%] mt-[5px]">
+                            <ul class="h-full flex flex-col flex-wrap text-[12px] text-white">
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Battle Breakers</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Fortnite</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Infinity Blade</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Robo Recall</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Shadow Complex</li>
+                                <li class="cursor-pointer hover:text-[#838383] linner duration-100">Unreal Tournament</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+             </div>
+             <!-- divone end -->
+              <!-- divtwo -->
+               <div class=" h-auto  md:h-[50%] w-[80%] md:ml-[85px] pt-[10px] border-t border-t-[#555555]">
+                <div class="md:h-[60%] md:w-[60%] w-full text-[11px] text-[#bab8b8] ">
+                    © 2024, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective 
+                    owners. <br>Our websites may contain links to other sites and resources provided by third parties. These links are provided for your convenience only. Epic Games has no control over the contents of those sites or resources, and accepts no responsibility for them or for any loss or damage that may arise from your use of them.
+                </div>
+                <div class="md:h-[40%] w-full flex">
+                    <div class="list w-[50%] md:h-auto flex items-start">
+                        <ul class="flex items-center text-[#bab8b8]">
+                            <li class=" text-[11px]  cursor-pointer hover:text-[#838383] linner duration-100">Team Service</li>
+                            <li class="ml-[10px] text-[11px]  cursor-pointer hover:text-[#838383] linner duration-100">Privacy Policy</li>
+                            <li class="md:ml-[10px] text-[11px]  cursor-pointer hover:text-[#838383] linner duration-100">Store Refund Policy</li>
+                        </ul>
+                    </div>
+                    <div class="epicicon w-[50%] md:h-auto flex justify-end items-start">
+                        <img src="https://i.imgur.com/AtzYF8r.png" alt="" referrerpolicy="no-referrer" class="h-[30px] cursor-pointer hover:fill-[#838383] linner duration-100">
+                        <img src="https://i.imgur.com/UrWBn9v.png" alt="" referrerpolicy="no-referrer" class="h-[30px] cursor-pointer hover:text-[#838383] linner duration-100 ">
+                    </div>
+                </div>
+               </div>
+               <!-- divtwo end -->
+       </footer>    
+       <!-- footer ends here -->
 </body>
 </html>
